@@ -38,7 +38,7 @@ const Home = ({ data }) => {
             <p className="text-[20px]">Sign up today and turn your items into cash, all while enjoying a hassle-free experience.</p>
           </div>
         </div>
-        <div className="border-b border-black">
+        <div className="border-pageText border-b-[1px]">
           <div className="flex  flex-col w-[80%] lg:w-[80%] text-current py-[80px] mx-auto">
             <p className="text-[24px] lg:text-[32px]">
               From electronics to fashion, home goods to collectibles, Stowcash offers a wide variety of categories to explore.
