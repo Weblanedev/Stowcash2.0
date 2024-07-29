@@ -22,6 +22,7 @@ import MegaNavigation from "@components/menu-mega-nav";
 import Icon from "@components/icon";
 import { useCartContext } from "context/CartContext";
 import Providers from "context/Providers";
+import Image from "next/image";
 
 const Header = ({ data = {}, isTransparent, onSetup = () => {} }) => {
   // expand our header data
@@ -89,12 +90,12 @@ const Header = ({ data = {}, isTransparent, onSetup = () => {} }) => {
                     aria-label="Go Home"
                     onClick={() => window.scrollTo(0, 0)}
                   >
-                    <Icon name="Logo" id="header" viewBox="0 0 215 150" />
+                    <Image src={"/logo.png"} width={50} height={50} />
                   </button>
                 ) : (
                   <Link href="/" scroll={false}>
                     <p className="logo--link" aria-label="Go Home">
-                      <Icon name="Logo" id="header" viewBox="0 0 215 150" />
+                    <Image src={"/logo.png"} width={50} height={70} />
                     </p>
                   </Link>
                 )}

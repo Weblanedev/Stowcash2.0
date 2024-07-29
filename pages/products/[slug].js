@@ -101,7 +101,7 @@ const Product = () => {
     {
       no: "Delivery Information",
       text: `
-  <p>At Omyrehub, we offer flexible shipping options to suit your needs:</p>
+  <p>At Stowcash, we offer flexible shipping options to suit your needs:</p>
   <ul>
     <li><strong>Shipping Options:</strong></li>
     <ol>
@@ -115,7 +115,7 @@ const Product = () => {
     <br />
     <li><strong>International Shipping:</strong> We also offer international shipping with delivery times varying by destination.</li>
   </ul>
-  <p>For further details, please visit our <a className="underline cursor-pointer" href="https://www.omyrehub.com/products/60c56e97-71ec-4cfd-aa53-7179e9a82fa1">contact page</a>.</p>
+  <p>For further details, please visit our <a className="underline cursor-pointer" href="https://stowcash.co/products/60c56e97-71ec-4cfd-aa53-7179e9a82fa1">contact page</a>.</p>
 `,
     },
     {
@@ -124,7 +124,7 @@ const Product = () => {
     },
     {
       no: "Shipping",
-      text: `<p>At Omyrehub, we offer several shipping options to cater to your needs. Standard Shipping typically takes 3-7 business days, while Express Shipping delivers within 1-3 business days. You will receive a tracking number once your order is shipped, allowing you to monitor its status in real-time. Shipping costs are calculated at checkout based on your location and selected shipping method. We also provide international shipping with delivery times varying by destination. For more details, visit our Shipping Information page.
+      text: `<p>At Stowcash, we offer several shipping options to cater to your needs. Standard Shipping typically takes 3-7 business days, while Express Shipping delivers within 1-3 business days. You will receive a tracking number once your order is shipped, allowing you to monitor its status in real-time. Shipping costs are calculated at checkout based on your location and selected shipping method. We also provide international shipping with delivery times varying by destination. For more details, visit our Shipping Information page.
 </p>`,
     },
   ];
