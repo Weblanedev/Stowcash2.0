@@ -1,3 +1,22 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+
+video {
+    /** Simulationg background-size: cover */
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .home {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://res.cloudinary.com/dqew5naa7/image/upload/v1722261778/arturo-rey-5yP83RhaFGA-unsplash_owii0i.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* clip-path: polygon(100% 0, 100% 95%, 50% 100%, 0 95%, 0 0); */
+  }
