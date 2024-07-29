@@ -22,7 +22,9 @@ const Home = ({ data }) => {
 
   return (
     <Providers>
-      <Layout site={site} page={page}>
+      <Layout site={site} page={{
+      hasTransparentHeader: true
+    }}>
         {/* {page.modules?.map((module, key) => (
           <Module key={key} index={key} data={module} />
         ))} */}
