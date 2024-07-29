@@ -8,7 +8,6 @@ import Container from "@components/container";
 
 const Home = ({ data }) => {
   const { site, page } = data;
-
   //console.log(site, '<-- SITE ON HOME')
   if (!page) {
     return (
