@@ -61,7 +61,7 @@ const Returns = ({ data }) => {
               your package with return information and instruction. If you no
               longer have the return card you can print it here. The item I
               received is damaged! If the purchased product is faulty, reach out
-              to us at support@omyrehub.com with photos within 7 days of the
+              to us at support@stowcash.co with photos within 7 days of the
               delivered date.
               <br />
               <br />
