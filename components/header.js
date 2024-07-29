@@ -73,7 +73,7 @@ const Header = ({ data = {}, isTransparent, onSetup = () => {} }) => {
       <PromoBar data={promo} />
 
       <header
-        className={cx("header", {
+        className={cx("header relative z-[10]", {
           "is-overlay": isTransparent,
           "is-white": isTransparent && !meganav.isOpen && observerIsVisible,
           "has-bg": !observerIsVisible,
