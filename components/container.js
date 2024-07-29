@@ -79,7 +79,6 @@ const Container = ({ site = {}, page = {}, schema, children }) => {
     <>
       <Header
         data={site.header}
-        // isTransparent={true}
         isTransparent={page.hasTransparentHeader}
         onSetup={({ height }) => setHeaderHeight(height)}
       />

@@ -2,7 +2,7 @@ const { createClient } = require('@sanity/client');
 
 const client = createClient({
   dataset: 'production',
-  projectId: 'sfpive8k',
+  projectId: 'dht06soa',
   useCdn: process.env.NODE_ENV === 'production',
   apiVersion: '2022-08-30',
 });

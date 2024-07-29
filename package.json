@@ -1,5 +1,5 @@
 {
-  "name": "omyrehub",
+  "name": "stowcash",
   "version": "2.7.0",
   "scripts": {
     "dev": "cross-env NODE_ENV=development next dev",
