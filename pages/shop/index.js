@@ -17,7 +17,7 @@ const Shop = ({ data }) => {
     (async () =>
       await axios
         .get(
-          "https://sfpive8k.api.sanity.io/v2021-10-21/data/query/production?query=*%5B_type%20%3D%3D%20%22product%22%5D%7B%0A%20%20_id%2C%20%0A%20%20ProductCategory%2C%0A%20%20ProductDescription%2C%0A%20%20AdditionalDetails%2C%0A%20%20ProductName%2C%0A%20%20ProductPrice%2C%0A%20%20ProductImages%2C%0A%20%20_type%2C%0A%20%20Image%0A%7D"
+          "https://dht06soa.api.sanity.io/v2021-10-21/data/query/production?query=*%5B_type%20%3D%3D%20%22product%22%5D%7B%0A%20%20_id%2C%20%0A%20%20ProductCategory%2C%0A%20%20ProductDescription%2C%0A%20%20AdditionalDetails%2C%0A%20%20ProductName%2C%0A%20%20ProductPrice%2C%0A%20%20ProductImages%2C%0A%20%20_type%2C%0A%20%20Image%0A%7D"
         )
         .then((res) => {
           setproducts(res.data.result);
