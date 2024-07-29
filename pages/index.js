@@ -22,7 +22,10 @@ const Home = ({ data }) => {
 
   return (
     <Providers>
-      <Layout site={site} page={{
+      {/* <Layout site={site} page={{
+      hasTransparentHeader: true
+    }}> */}
+      <Container site={site} page={{
       hasTransparentHeader: true
     }}>
         {/* {page.modules?.map((module, key) => (
@@ -74,7 +77,8 @@ const Home = ({ data }) => {
             </div>
           </div>
         </div>
-      </Layout>
+        </Container>
+      {/* </Layout> */}
     </Providers>
   );
 };
