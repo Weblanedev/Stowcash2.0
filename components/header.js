@@ -21,7 +21,6 @@ import Menu from "@components/menu";
 import MegaNavigation from "@components/menu-mega-nav";
 import Icon from "@components/icon";
 import { useCartContext } from "context/CartContext";
-import Providers from "context/Providers";
 import Image from "next/image";
 
 const Header = ({ data = {}, isTransparent, onSetup = () => {} }) => {
