@@ -22,30 +22,17 @@ const Delivery = ({ data }) => {
             <h5 className='font-semibold '>
               Tentative Processing and Shipping Times
             </h5>
-            We ship worldwide from Nigeria Express/Priority orders 1-2 days
-            processing and 1-2 days shipping, overall time 2-4 business days (US
-            and Canada) 4-7 days shipping, overall time 5-9 business days
-            (Europe) 4-7 days shipping, overall time 5-9 business days
-            (Australia & International) Weekends and holidays not included
+            We ship worldwide from Canada. Express/Priority orders have a processing time of 1-2 days and a shipping time of 1-2 days for the US and Canada, with an overall time of 2-4 business days. For Europe, shipping takes 4-7 days, with an overall time of 5-9 business days. For Australia and International destinations, shipping takes 4-7 days, with an overall time of 5-9 business days. Weekends and holidays are not included.
             <br />
             <br />
             <h5 className='font-semibold '>
               Standard International/Expedited orders
             </h5>
-            Standard International/Expedited orders 4-8 days shipping, overall
-            time 7-13 business days (US and Canada) 4-7 days shipping, overall
-            time 7-12 business days (Europe) 4-7 days shipping, overall time
-            7-12 business days (Australia & International) Weekends and holidays
-            not included Please allow up to 14 business days during holidays and
-            sales. We will be shipping all our US and International EXPRESS
-            packages with DHL Please check out On Demand Delivery you can use
-            this tool to update address, choose delivery time and location etc
+            For Standard International/Expedited orders, the shipping time for the US and Canada is 4-8 days, with an overall time of 7-13 business days. For Europe, shipping takes 4-7 days, with an overall time of 7-12 business days. For Australia and International destinations, shipping takes 4-7 days, with an overall time of 7-12 business days. Weekends and holidays are not included. Please allow up to 14 business days during holidays and sales.
             <br />
             <br />
             <h5 className='font-semibold '>Shipping Addresses</h5>
-            Please make sure your shipping address is complete and correct. We
-            may not be able to accommodate address changes after your order has
-            been placed.
+            Please make sure your shipping address is complete and correct. We may not be able to accommodate address changes after your order has been placed. Please ensure that apartment numbers are provided and correct.
             <br />
             Please make sure, apartment numbers are provided and correct.
             <br />
@@ -53,34 +40,15 @@ const Delivery = ({ data }) => {
             <h5 className='font-semibold '>Shipping rates</h5>
             <b>Rates are calculated at checkout</b>
             <br />
-            Free shipping on orders above $300USD ( U.S, Canada and Europe ) and
-            $500 for Australia Signature available
+            Free shipping on orders above $300 USD (U.S., Canada, and Europe) and $500 for Australia. Signature available.
             <br />
             <br />
             <h5 className='font-semibold '>Custom Charges</h5>
-            All shipments crossing international borders are subject to the
-            assessment of duties and taxes imposed by the importing country’s
-            government. Omyrehub has no control over these charges as they vary
-            between countries. They are your responsibility. Shipping fees do
-            not cover duties and taxes, shipping fees are paid to the shipping
-            company and duties and taxes are paid to your government. Please
-            note that shipping fees are non-refundable and return shipping costs
-            are the customer's responsibility. Omyrehub does not provide return
-            shipping labels. A handling fee will be assessed on orders that are
-            refused by the customer at the time of delivery or returned due to
-            an "un-deliverable" or incomplete address.
+            All shipments crossing international borders are subject to the assessment of duties and taxes imposed by the importing country’s government. Stowcash has no control over these charges as they vary between countries. They are your responsibility. Shipping fees do not cover duties and taxes; shipping fees are paid to the shipping company and duties and taxes are paid to your government. Please note that shipping fees are non-refundable and return shipping costs are the customer's responsibility. Stowcash does not provide return shipping labels. A handling fee will be assessed on orders that are refused by the customer at the time of delivery or returned due to an "undeliverable" or incomplete address.
             <br />
             <br />
             <h5 className='font-semibold '>Pre-Order Items</h5>
-            Pre-order item(s) have their "Shipping Starts" date in the item
-            description, it is the date they become available to start shipping
-            out.
-            <br />
-            Processing time will start on that date provided and will be 1-2
-            business days for express orders and 5-7 business days for standard
-            orders. If your order has a pre-order item all the items will ship
-            together. If you wish to split up the order, there will be an
-            additional shipping cost
+            Pre-order item(s) have their "Shipping Starts" date in the item description, which is the date they become available to start shipping out.<br /> Processing time will start on that date provided and will be 1-2 business days for express orders and 5-7 business days for standard orders. If your order includes a pre-order item, all the items will ship together. If you wish to split up the order, there will be an additional shipping cost.
             <br />
             <br />
             <h5 className='font-semibold '>Item not delivered?</h5>
