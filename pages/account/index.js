@@ -135,7 +135,7 @@ const About = ({ data }) => {
                   {confirmPasswordError && <p className="text-red-500 text-xs mt-1">{confirmPasswordError}</p>}
                 </div>
                 <div>
-                  <button className="w-[100%] mt-[30px] py-[15px] px-[40px] text-[20px] text-black border border-black bg-transparent rounded-full"
+                  <button className="w-[100%] mt-[30px] py-[15px] px-[40px] text-[20px] border text-pageText border-pageText bg-transparent rounded-full"
                     onClick={handleSubmit}> {false ? <div className="loader ease-linear rounded-full border-4 border-t-4 border-blacks-four h-[25px] w-[25px]"></div> : "CREATE ACCOUNT"}</button>
 
                   <p className={`text-center font-[400] text-[18px] items-center flex gap-[2px] justify-center pt-[20px]`}>
@@ -234,7 +234,7 @@ const About = ({ data }) => {
                     {confirmPasswordError && <p className="text-red-500 text-xs mt-1">{confirmPasswordError}</p>}
                   </div>
                   <div>
-                    <button className="w-[100%] mt-[30px] py-[15px] px-[40px] text-[20px] text-black border border-black bg-transparent rounded-full"
+                    <button className="w-[100%] mt-[30px] py-[15px] px-[40px] text-[20px] border text-pageText border-pageText bg-transparent rounded-full"
                       onClick={handleSubmit}> {false ? <div className="loader ease-linear rounded-full border-4 border-t-4 border-blacks-four h-[25px] w-[25px]"></div> : "CREATE ACCOUNT"}</button>
 
                     <p className={`text-center font-[400] text-[18px] items-center flex gap-[2px] justify-center pt-[10px]`}>
