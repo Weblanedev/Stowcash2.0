@@ -15,7 +15,7 @@ const Privacy = ({ data }) => {
         <div className='border-b-black border-b-[1px] py-32 md:py-48 px-6 md:px-32 flex flex-col md:flex-row md:justify-between md:items-center'>
           <h1 className='md:w-[60%] font-semibold'>Privacy policy</h1>
           <h5 className='md:w-[35%] md:text-center  font-normal'>
-            At Omyre, we value your privacy. This policy outlines how we handle
+            At Stowcash, we value your privacy. This policy outlines how we handle
             your personal information. By using our services, you agree to these
             terms.
           </h5>

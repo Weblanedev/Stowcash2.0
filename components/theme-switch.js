@@ -8,8 +8,10 @@ import Swatch from '@components/swatch';
 const themes = [
   { title: 'Light Mode', name: 'light', color: { hex: '#f4f4f0' } },
   { title: 'Dark Mode', name: 'dark', color: { hex: '#000000' } },
-  { title: 'Omyre Mode', name: 'metal', color: { hex: '#FF9F00' } },
+  { title: 'Stow Mode', name: 'metal', color: { hex: '#c04000' } },
 ];
+
+//c04000
 //FF9F00
 const ThemeSwitch = () => {
   const hasMounted = useHasMounted();
