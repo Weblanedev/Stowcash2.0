@@ -139,7 +139,10 @@ const About = ({ data }) => {
                     onClick={handleSubmit}> {false ? <div className="loader ease-linear rounded-full border-4 border-t-4 border-blacks-four h-[25px] w-[25px]"></div> : "CREATE ACCOUNT"}</button>
 
                   <p className={`text-center font-[400] text-[18px] items-center flex gap-[2px] justify-center pt-[20px]`}>
-                    New account? <p onClick={() => setPages("signup")} className={`cursor-pointer underline`}>Sign up</p>
+                    New account? <p onClick={() => {
+                      setPages("signup")
+                      window.scrollTo(0, 0)
+                    }} className={`cursor-pointer underline`}>Sign up</p>
                   </p>
                 </div>
               </div>
@@ -235,7 +238,11 @@ const About = ({ data }) => {
                       onClick={handleSubmit}> {false ? <div className="loader ease-linear rounded-full border-4 border-t-4 border-blacks-four h-[25px] w-[25px]"></div> : "CREATE ACCOUNT"}</button>
 
                     <p className={`text-center font-[400] text-[18px] items-center flex gap-[2px] justify-center pt-[10px]`}>
-                      Already have an account? <p onClick={() => setPages("login")} className={`cursor-pointer underline`}>Login</p>
+                      Already have an account? <p onClick={() => {
+                        window.scrollTo(0, 0)
+                        setPages("login")
+                      }
+                      } className={`cursor-pointer underline`}>Login</p>
                     </p>
                   </div>
                 </div>

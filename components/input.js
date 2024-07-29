@@ -25,7 +25,7 @@ const FormInput = ({
         variant={variant}
         placeholder={placeholder}
         value={value}
-        className="flex w-full font-[400] text-base text-black border-b text-[18px] py-[10px] border-black bg-transparent transition-colors file:border-0 file:bg-transparent text-gray-900 file:text-sm file:font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
+        className="flex w-full font-[400] control--pot text-base text-black border-b text-[18px] py-[10px] border-black bg-transparent transition-colors file:border-0 file:bg-transparent text-gray-900 file:text-sm file:font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
         onChange={(e) => {
           if (hasOnchage) {
             //@ts-ignore
