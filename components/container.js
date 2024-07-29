@@ -79,7 +79,7 @@ const Container = ({ site = {}, page = {}, schema, children }) => {
     <>
       <Header
         data={site.header}
-        isTransparent={page.hasTransparentHeader}
+        isTransparent={false}
         onSetup={({ height }) => setHeaderHeight(height)}
       />
       <div className="min-h-screen w-screen relative">
