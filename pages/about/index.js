@@ -20,19 +20,19 @@ const About = ({ data }) => {
             <div className="flex flex-col justify-center gap-10 items-center lg:mt-[200px] relative z-10">
               <h1 className="text-[28px] leading-[36px] text-center lg:text-[48px] lg:leading-[48px] font-normal">Stowcash</h1>
             </div>
-          </div>/
-          <Marquee className={`bg-purple-20 py-[20px] text-purple-10 font-[600] mt-[800px] border-b-black border-b-[1px]`} autoFill>
+          </div>
+          <Marquee className={`bg-purple-20 py-[20px] text-purple-10 font-[600] mt-[650px] sm:mt-[600px] lg:mt-[400px] border-b-black border-b-[1px]`} autoFill>
             <div className="flex gap-[100px] ">
-              <div className='relative w-[120px] xl:w-[150px] h-[120px] xl:h-[150px] '>
+              <div className='relative w-[80px] sm:w-[150px] h-[80px] sm:h-[150px] '>
                 <Image src={"https://res.cloudinary.com/dqew5naa7/image/upload/v1722260385/103a4c3c2e365f5500df458c5edfeabf-removebg-preview_vdr3ue.png"} alt={"logo"} layout="fill" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="rounded-t-md object-cover object-bottom scale-[1.5]" />
               </div>
-              <div className='relative w-[120px] xl:w-[150px] h-[120px] xl:h-[150px] '>
+              <div className='relative w-[80px] sm:w-[150px] h-[80px] sm:h-[150px] '>
                 <Image src={"https://res.cloudinary.com/dqew5naa7/image/upload/v1722260384/547e320261cff5b328543e9d9f3be2d9-removebg-preview_rz8qf5.png"} alt={"logo"} layout="fill" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="rounded-t-md object-cover object-bottom scale-[1.5]" />
               </div>
-              <div className='relative w-[120px] xl:w-[150px] h-[120px] xl:h-[150px] '>
+              <div className='relative w-[80px] sm:w-[150px] h-[80px] sm:h-[150px] '>
                 <Image src={"https://res.cloudinary.com/dqew5naa7/image/upload/v1722260384/1a045c5483eb2cc3c3471365232f6569-removebg-preview_ge1qmc.png"} alt={"logo"} layout="fill" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="rounded-t-md object-cover object-bottom scale-[1.5]" />
               </div>
-              <div className='relative w-[120px] xl:w-[150px] h-[120px] xl:h-[150px] '>
+              <div className='relative w-[80px] sm:w-[150px] h-[80px] sm:h-[150px] '>
                 <Image src={"https://res.cloudinary.com/dqew5naa7/image/upload/v1722260641/625104f0661e59d847c32384dd90ae35-removebg-preview_cpaxzs.png"} alt={"logo"} layout="fill" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="rounded-t-md object-cover object-bottom scale-[1.5]" />
               </div>
             </div>
