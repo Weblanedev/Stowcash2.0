@@ -31,47 +31,6 @@ const About = ({ data }) => {
   return (
     <Providers>
       <Container site={site} page={page}>
-        {/* <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md">
-        <h1 className="text-2xl font-bold text-center">Login</h1>
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <div>
-            <label htmlFor="username" className="block text-sm font-medium text-gray-700">
-              Username
-            </label>
-            <input
-              type="text"
-              id="username"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              required
-              className="block w-full px-3 py-2 mt-1 border rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-            />
-          </div>
-          <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700">
-              Password
-            </label>
-            <input
-              type="password"
-              id="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-              className="block w-full px-3 py-2 mt-1 border rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-            />
-          </div>
-          <div>
-            <button
-              type="submit"
-              className="w-full px-4 py-2 text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-            >
-              Login
-            </button>
-          </div>
-        </form>
-      </div>
-    </div> */}
         <div className='relative'>
           <div className='flex flex-col lg:flex-row lg:gap-[0px] h-[100vh] overflow-hidden'>
             <div className='w-[100%] hidden lg:block'>
@@ -86,32 +45,13 @@ const About = ({ data }) => {
             {pages === "login" ? <div className='flex justify-center pt-[100px] overflow-y-scroll h-[100vh] px-[20px] 2xl:p-0 w-[100%]'>
               <div className='flex flex-col gap-[50px]'>
 
-                {/* <p className={`flex gap-[10px] cursor-pointer `} onClick={() => window.history.back()}> */}
-                {/* <ArrowLeft /> */}
-                {/* Back</p> */}
-                {/* <div className={`relative w-[99px] h-[41px]`}>
-              <Image
-                src="/assets/pngs/skinty-shop-logo-purple.png"
-                fill
-                alt={"Banner preview"}
-                className={`w-[100%] rounded-full`}
-              />
-            </div> */}
+
                 <div className='flex flex-col gap-5 w-[100%] xl:w-[405px]'>
                   <h1 className={`font-[700] text-[32px]`}>Welcome <span className={` font-light`}>Back</span></h1>
                   <p className={``}>Welcome back to Stowcash! Please enter your login details to access your account.</p>
                 </div>
 
-                {/* <div className="w-[398px]">
-              <FormInput
-                placeholder="Username"
-                value={userName}
-                setValue={setUserName}
-                type="text"
-                id="username"
-                variant="outlineDark"
-              />
-            </div> */}
+     
                 <div className="w-[100%] xl:w-[398px]">
                   <FormInput
                     placeholder="Email Address"
@@ -137,7 +77,6 @@ const About = ({ data }) => {
                 <div>
                   <button className="w-[100%] mt-[30px] py-[15px] px-[40px] text-[20px] text-black border border-black bg-transparent rounded-full"
                     onClick={handleSubmit}> {false ? <div className="loader ease-linear rounded-full border-4 border-t-4 border-blacks-four h-[25px] w-[25px]"></div> : "CREATE ACCOUNT"}</button>
-
                   <p className={`text-center font-[400] text-[18px] items-center flex gap-[2px] justify-center pt-[20px]`}>
                     New account? <p onClick={() => {
                       setPages("signup")
@@ -150,18 +89,6 @@ const About = ({ data }) => {
               :
               <div className='flex justify-center pt-[100px] overflow-y-scroll h-[100vh] px-[20px] 2xl:p-0 w-[100%]'>
                 <div className='flex flex-col gap-[50px]'>
-
-                  {/* <p className={`flex gap-[10px] cursor-pointer `} onClick={() => window.history.back()}> */}
-                  {/* <ArrowLeft /> */}
-                  {/* Back</p> */}
-                  {/* <div className={`relative w-[99px] h-[41px]`}>
-              <Image
-                src="/assets/pngs/skinty-shop-logo-purple.png"
-                fill
-                alt={"Banner preview"}
-                className={`w-[100%] rounded-full`}
-              />
-            </div> */}
                   <div className='flex flex-col gap-5 w-[100%] xl:w-[405px]'>
                     <h1 className={` font-[700] text-[32px]`}>Create <span className={` font-light`}>An Account</span></h1>
                     <p className={` text-grey-15`}>Register now to enjoy seamless shopping, personalized recommendations, and rewards!...</p>

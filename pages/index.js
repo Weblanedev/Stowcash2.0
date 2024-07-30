@@ -22,15 +22,9 @@ const Home = ({ data }) => {
 
   return (
     <Providers>
-      {/* <Layout site={site} page={{
-      hasTransparentHeader: true
-    }}> */}
       <Container site={site} page={{
       hasTransparentHeader: true
     }}>
-        {/* {page.modules?.map((module, key) => (
-          <Module key={key} index={key} data={module} />
-        ))} */}
         <div className='home pt-[150px] sm:pt-[200px]'>
           <div className="flex flex-col justify-center gap-10 items-center text-white mt-[200px]">
             <h1 className="text-[28px] leading-[36px] text-center lg:text-[48px] lg:leading-[56px]">
