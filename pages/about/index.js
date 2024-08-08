@@ -14,14 +14,9 @@ const About = ({ data }) => {
         hasTransparentHeader: true
       }}>
         <main className="">
-          <div className="relative text-white">
-            <video autoPlay muted playsInline loop id="myVideo" className="absolute top-0 left-0 w-full h-full object-cover z-0">
-              <source src="https://res.cloudinary.com/dqew5naa7/video/upload/v1722258766/m5ieadkylfjoshpwwotp.mp4" type="video/mp4" />
-              Your browser does not support HTML5 video.
-            </video>
-            <div className="relative z-10 flex flex-col justify-center items-center gap-10 pt-[150px] sm:pt-[200px] h-[100vh]">
-              <h1 className="text-[28px] leading-[36px] text-center lg:text-[48px] lg:leading-[48px] font-normal">Stowcash</h1>
-            </div>
+        <div id="about" className={`flex flex-row items-center h-[70vh] justify-center px-10`}>
+            <h1 className="text-white font-bold text-5xl">STOWCASH</h1>
+            
           </div>
 
         <div>
