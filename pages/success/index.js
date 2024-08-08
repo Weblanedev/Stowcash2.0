@@ -2,21 +2,10 @@
 import Container from "@components/container";
 import { getStaticPage, queries } from "@data";
 import Providers from "context/Providers";
-import React, { useRef } from "react";
-//import lottie from 'lottie-web';
+import React from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Success = ({ data }) => {
-  // useEffect(() => {
-  //   lottie.loadAnimation({
-  //     container: animationContainer.current,
-  //     renderer: "svg",
-  //     loop: true,
-  //     autoplay: true,
-  //     path: "data/animations/confetti.json",
-  //   });
-  // }, []);
-
   const { site, page } = data;
   return (
     <Providers>
