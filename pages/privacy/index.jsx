@@ -6,7 +6,6 @@ import React from 'react';
 
 const Privacy = ({ data }) => {
   const { site, page } = data;
-
   
   return (
     <Providers>
