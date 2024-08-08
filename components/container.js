@@ -31,7 +31,7 @@ const pageTransitionAnim = {
   },
 };
 
-const Container = ({ site = {}, page = {}, schema, children }) => {
+const Container = ({ site = {}, page = {}, schema, children, noFullScreen }) => {
   const router = useRouter()
   // set window height var (w/ safari/iOS hack)
   const { height: windowHeight } = useWindowSize();
@@ -82,7 +82,7 @@ const Container = ({ site = {}, page = {}, schema, children }) => {
         isTransparent={false}
         onSetup={({ height }) => setHeaderHeight(height)}
       />
-      <div className="min-h-screen w-screen relative">
+      <div className={` ${noFullScreen ? "" : "min-h-screen"} w-screen relative`}>
         <main id="">{children}</main>
         {openCart === true && (
           <div className="fixed z-[999] top-0 w-screen h-screen right-0 flex flex-row">

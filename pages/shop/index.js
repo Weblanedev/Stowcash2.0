@@ -27,8 +27,8 @@ const Shop = ({ data }) => {
   if (products?.length > 0) {
     return (
       <Providers>
-        <Container site={site} page={page}>
-          <main className={`flex-1 flex-row items-center h-[60vh] justify-center px-10`}>
+        <Container site={site} page={page} noFullScreen>
+          <div className={`flex flex-row items-center h-[60vh] justify-center px-10`}>
             <h1>COMING SOON</h1>
             {/* <p className="!mt-10 md:w-[60%] !mb-40">
               Explore our wide range of household items and more! Discover
@@ -44,7 +44,7 @@ const Shop = ({ data }) => {
               })}
             </div>
             <div className="flex flex-row flex-wrap"></div> */}
-          </main>
+          </div>
         </Container>
       </Providers>
     );
