@@ -129,7 +129,7 @@ const Container = ({ site = {}, page = {}, schema, children }) => {
                               </div>
                               <div>
                                 <p className="!mb-4">{data?.name}</p>
-                                <p>₦{formatAmount(data?.price)}</p>
+                                <p>${formatAmount(data?.price)}</p>
                               </div>
                             </div>
                             <div>
