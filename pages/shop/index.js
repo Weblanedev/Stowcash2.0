@@ -28,7 +28,7 @@ const Shop = ({ data }) => {
     return (
       <Providers>
         <Container site={site} page={page} noFullScreen>
-          <div className={`flex flex-row items-center h-[60vh] justify-center px-10`}>
+          <div id="shop" className={`flex flex-row items-center h-[60vh] justify-center px-10`}>
             <h1>COMING SOON</h1>
             {/* <p className="!mt-10 md:w-[60%] !mb-40">
               Explore our wide range of household items and more! Discover
