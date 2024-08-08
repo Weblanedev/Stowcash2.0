@@ -27,7 +27,7 @@ const ProductCard = ({ product }) => {
       </div>
       <div className="mt-15 w-full mx-6 my-4 flex flex-col ">
         <p className="!mb-[2px] text-4xl font-[500]">{e?.ProductName}</p>
-        <p className="mt-2">₦{formatAmount(e?.ProductPrice)}</p>
+        <p className="mt-2">${formatAmount(e?.ProductPrice)}</p>
       </div>
       <button
         onClick={() => addToCart(_id, amount, product)}
