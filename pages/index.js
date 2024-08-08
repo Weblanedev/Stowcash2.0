@@ -3,8 +3,6 @@ import Error from "next/error";
 import Link from "next/link";
 import Image from "next/image";
 import { getStaticPage, queries } from "@data";
-import Layout from "@components/layout";
-import { Module } from "@components/modules";
 import Providers from "context/Providers";
 import Container from "@components/container";
 import { useTheme } from 'next-themes';
@@ -28,7 +26,7 @@ const Home = ({ data }) => {
       hasTransparentHeader: true
     }}>
         <div className='home pt-[150px] sm:pt-[200px]'>
-          <div className={`flex flex-col justify-center gap-10 items-center ${theme.name === "light" ? "text-pageBG" : "text-pageText"} mt-[200px]`}>
+          <div className={`flex flex-col justify-center gap-10 items-center ${theme?.name === "light" ? "text-pageBG" : "text-pageText"} mt-[200px]`}>
             <h1 className="text-[28px] leading-[36px]  text-center lg:text-[48px] lg:leading-[56px]">
               Embrace the convenience of online selling</h1>
             <p className="text-[20px]">Sign up today and turn your items into cash, all while enjoying a hassle-free experience.</p>
@@ -76,7 +74,6 @@ const Home = ({ data }) => {
           </div>
         </div>
         </Container>
-      {/* </Layout> */}
     </Providers>
   );
 };
