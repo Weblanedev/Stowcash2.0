@@ -20,3 +20,10 @@ video {
     height: 100vh;
     /* clip-path: polygon(100% 0, 100% 95%, 50% 100%, 0 95%, 0 0); */
   }
+
+  #shop {
+    background-image: url('https://res.cloudinary.com/dmprj9s0q/image/upload/v1723116306/obxygw9zhww024m047hf.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
