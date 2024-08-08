@@ -28,9 +28,9 @@ const Shop = ({ data }) => {
     return (
       <Providers>
         <Container site={site} page={page}>
-          <main className={`py-[50px] lg:py-[20px] px-[20px]`}>
-            <h1>Welcome to Our Shop</h1>
-            <p className="!mt-10 md:w-[60%] !mb-40">
+          <main className={`flex-1 flex-row items-center h-[60vh] justify-center px-10`}>
+            <h1>COMING SOON</h1>
+            {/* <p className="!mt-10 md:w-[60%] !mb-40">
               Explore our wide range of household items and more! Discover
               quality products for your home, from kitchen essentials to home
               décor, all at unbeatable prices. Shop now and enjoy convenient
@@ -43,7 +43,7 @@ const Shop = ({ data }) => {
                 );
               })}
             </div>
-            <div className="flex flex-row flex-wrap"></div>
+            <div className="flex flex-row flex-wrap"></div> */}
           </main>
         </Container>
       </Providers>
