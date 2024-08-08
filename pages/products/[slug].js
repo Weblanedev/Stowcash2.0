@@ -158,7 +158,7 @@ const Product = () => {
                 </p> */}
                   <h3>{product?.ProductName}</h3>
                   <h2 className={"font-bold"}>
-                    ₦ {formatAmount(product?.ProductPrice)}
+                    $ {formatAmount(product?.ProductPrice)}
                   </h2>
                   <h4 className="!mt-20 mb-16 font-semibold text-[#8c8c8c]">
                     {"Product description"}

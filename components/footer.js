@@ -20,7 +20,7 @@ const Footer = () => {
 
   if (blockData.length > 0) {
     return (
-      <footer className='footer border-t-[1px] border-t-black' role='contentinfo'>
+      <footer className='footer border-pageText border-t-[1px]' role='contentinfo'>
         <div className='footer--grid'>
           {blockData?.map((block, key) => (
             <div key={key} className='footer--block'>

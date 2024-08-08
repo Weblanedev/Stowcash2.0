@@ -2,6 +2,7 @@
 import Container from "@components/container";
 import { getStaticPage, queries } from "@data";
 import Providers from "context/Providers";
+import FormInput from '@components/input';
 import React from "react";
 
 const Contact = ({ data }) => {
@@ -24,21 +25,20 @@ const Contact = ({ data }) => {
                 </p>
               </div>
               <div className="w-[100%] flex flex-col gap-[30px]">
-                <input
+                <FormInput
                   placeholder="Your Name"
                   className="border border-[#9e9e9e] p-[20px] outline-none"
                 />
-                <input
+                <FormInput
                   placeholder="Your Email"
                   className="border border-[#9e9e9e] p-[20px] outline-none"
                 />
                 <textarea
                   placeholder="Your Message"
-                  className="border border-[#9e9e9e] p-[20px] outline-none resize-none h-[234px]"
+                  className="flex w-full font-[400] control--pot text-base text-pageBG border-b text-[18px] py-[10px] border-pageText bg-transparent transition-colors file:border-0 file:bg-transparent text-gray-900 file:text-sm file:font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 h-[234px]"
                 />
-                <button className="bg-[#141414] text-white py-[20px]">
-                  Send Message
-                </button>
+                <button className="w-[100%] mt-[30px] py-[15px] px-[40px] text-[20px] border text-pageText border-pageText bg-transparent rounded-full"> 
+                  {false ? <div className="loader ease-linear rounded-full border-4 border-t-4 border-blacks-four h-[25px] w-[25px]"></div> : "Send Message"}</button>
               </div>
             </div>
           </div>

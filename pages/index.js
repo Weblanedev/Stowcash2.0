@@ -7,8 +7,10 @@ import Layout from "@components/layout";
 import { Module } from "@components/modules";
 import Providers from "context/Providers";
 import Container from "@components/container";
+import { useTheme } from 'next-themes';
 
 const Home = ({ data }) => {
+  const { theme, setTheme } = useTheme();
   const { site, page } = data;
   //console.log(site, '<-- SITE ON HOME')
   if (!page) {
@@ -26,21 +28,21 @@ const Home = ({ data }) => {
       hasTransparentHeader: true
     }}>
         <div className='home pt-[150px] sm:pt-[200px]'>
-          <div className="flex flex-col justify-center gap-10 items-center text-white mt-[200px]">
-            <h1 className="text-[28px] leading-[36px] text-center lg:text-[48px] lg:leading-[56px]">
+          <div className={`flex flex-col justify-center gap-10 items-center ${theme.name === "light" ? "text-pageBG" : "text-pageText"} mt-[200px]`}>
+            <h1 className="text-[28px] leading-[36px]  text-center lg:text-[48px] lg:leading-[56px]">
               Embrace the convenience of online selling</h1>
             <p className="text-[20px]">Sign up today and turn your items into cash, all while enjoying a hassle-free experience.</p>
           </div>
         </div>
-        <div className="border-b border-black">
+        <div className="border-pageText border-b-[1px]">
           <div className="flex  flex-col w-[80%] lg:w-[80%] text-current py-[80px] mx-auto">
-            <p className="text-[24px] lg:text-[32px]">
+            <p className="text-[24px] text-pageText lg:text-[32px]">
               From electronics to fashion, home goods to collectibles, Stowcash offers a wide variety of categories to explore.
               Join a community of like-minded individuals. Our customer support team is always ready to assist you with any questions or concerns.
             </p>
             <div className="flex justify-center">
               <Link href="/shop">
-                <button className="w-fit py-[20px] px-[30px] text-[20px] bg-black text-white rounded-full">
+                  <button className="w-fit mt-[30px] py-[15px] px-[40px] text-[20px] border-[1px] text-pageText border-pageText bg-transparent rounded-full">
                   Start Shopping
                 </button>
               </Link>
@@ -63,9 +65,11 @@ const Home = ({ data }) => {
               </p>
               <div className="flex justify-center ">
                 <Link href="/about">
-                  <button className="w-fit py-[15px] px-[40px] text-[20px] text-black border border-black bg-transparent rounded-full">
+                  {/* <button className="w-[100%] mt-[30px] py-[15px] px-[40px] text-[20px] border text-pageBG bodrer-pageText bg-transparent rounded-full">
                     Our Story
-                  </button>
+                  </button> */}
+                  <button className="w-fit mt-[30px] py-[15px] px-[40px] text-[20px] border text-pageText border-pageText bg-transparent rounded-full"
+                    > {false ? <div className="loader ease-linear rounded-full border-4 border-t-4 border-blacks-four h-[25px] w-[25px]"></div> : "Our Story"}</button>
                 </Link>
               </div>
             </div>
