@@ -46,9 +46,15 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.js",
-    ".next/types/**/*.ts"
-, "pages/shop/index.js", "pages/returns/index.jsx", "pages/products/[slug].js", "pages/privacy/index.jsx", "pages/delivery/index.jsx", "pages/contact/index.js", "pages/404.jsx", "pages/[...slug]"  ],
-  "exclude": [
-    "node_modules"
-  ]
+    ".next/types/**/*.ts",
+    "pages/shop/index.js",
+    "pages/returns/index.jsx",
+    "pages/products/[slug].js",
+    "pages/privacy/index.jsx",
+    "pages/delivery/index.jsx",
+    "pages/contact/index.js",
+    "pages/404.jsx",
+    "pages/[...slug]"
+  ],
+  "exclude": ["node_modules"]
 }
